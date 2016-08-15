@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingStart="50dp"
+    android:paddingEnd="50dp"
+    android:paddingLeft="50dp"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:padding="20dp"
+        android:id="@+id/sp_name"
+        android:entries="@array/german_familienname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+
+    <Button
+        android:id="@+id/bt_check"
+        android:text="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:padding="20dp"
+        android:id="@+id/sp_name_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+
+</LinearLayout>

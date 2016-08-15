@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">twoh-android-layoutbasic</string>
+
+    <string-array name="german_familienname">
+        <item>Fischer</item>
+        <item>Bauer</item>
+        <item>Scheider</item>
+        <item>Jäger</item>
+        <item>Müller</item>
+        <item>Schulz</item>
+        <item>Neumann</item>
+        <item>Schwarz</item>
+        <item>Lange</item>
+        <item>Köhler</item>
+        <item>Schumacher</item>
+    </string-array>
+</resources>
