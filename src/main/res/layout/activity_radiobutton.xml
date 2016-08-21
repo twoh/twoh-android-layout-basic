@@ -12,13 +12,14 @@
 
     <RadioGroup
         android:id="@+id/rg_gender"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
         <RadioButton
             android:id="@+id/rb_male"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:checked="true"
             android:text="Male" />
 
         <RadioButton

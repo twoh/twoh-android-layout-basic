@@ -7,6 +7,7 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
@@ -25,12 +26,13 @@ public class TWOHLayoutRadioButton extends AppCompatActivity {
         btSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                switch (rgGender.getCheckedRadioButtonId()){
+                int id = rgGender.getCheckedRadioButtonId();
+                switch (id){
                     case R.id.rb_male :
-                        Toast.makeText(TWOHLayoutRadioButton.this,"Clicked male", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(TWOHLayoutRadioButton.this,"Clicked "+((RadioButton)findViewById(id)).getText(), Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.rb_female :
-                        Toast.makeText(TWOHLayoutRadioButton.this,"Clicked female", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(TWOHLayoutRadioButton.this,"Clicked "+((RadioButton)findViewById(id)).getText(), Toast.LENGTH_SHORT).show();
                         break;
                 }
             }
