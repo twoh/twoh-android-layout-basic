@@ -19,5 +19,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(TWOHLayoutSpinner.newIntent(MainActivity.this));
             }
         });
+
+        Button btRadioButton = (Button) findViewById(R.id.bt_radiobutton);
+        btRadioButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(TWOHLayoutRadioButton.newIntent(MainActivity.this));
+            }
+        });
     }
 }

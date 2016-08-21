@@ -16,6 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".TWOHLayoutSpinner"/>
+        <activity android:name=".TWOHLayoutRadioButton"/>
     </application>
 
 </manifest>
