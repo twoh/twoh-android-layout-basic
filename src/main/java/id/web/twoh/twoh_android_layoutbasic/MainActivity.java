@@ -27,5 +27,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(TWOHLayoutRadioButton.newIntent(MainActivity.this));
             }
         });
+
+        Button btCheckBox = (Button) findViewById(R.id.bt_checkbox);
+        btCheckBox.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(TWOHLayoutCheckBox.newIntent(MainActivity.this));
+            }
+        });
     }
 }
