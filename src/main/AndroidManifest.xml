@@ -18,6 +18,7 @@
         <activity android:name=".TWOHLayoutSpinner"/>
         <activity android:name=".TWOHLayoutRadioButton"/>
         <activity android:name=".TWOHLayoutCheckBox"/>
+        <activity android:name=".TWOHLayoutToggle"/>
     </application>
 
 </manifest>

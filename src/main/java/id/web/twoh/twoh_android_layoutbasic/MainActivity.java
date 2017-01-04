@@ -35,5 +35,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(TWOHLayoutCheckBox.newIntent(MainActivity.this));
             }
         });
+
+        Button btToggle = (Button) findViewById(R.id.bt_toggle);
+        btToggle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(TWOHLayoutToggle.newIntent(MainActivity.this));
+            }
+        });
     }
 }
