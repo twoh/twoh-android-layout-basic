@@ -19,6 +19,12 @@
         android:text="TWOH's Layout Basic Tutorial Android" />
 
     <Button
+        android:id="@+id/bt_basic"
+        android:text="Activity Basic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
         android:id="@+id/bt_spinner"
         android:text="Spinner Tutorial"
         android:layout_width="match_parent"

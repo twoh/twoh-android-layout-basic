@@ -19,6 +19,8 @@
         <activity android:name=".TWOHLayoutRadioButton"/>
         <activity android:name=".TWOHLayoutCheckBox"/>
         <activity android:name=".TWOHLayoutToggle"/>
+        <activity android:name=".TWOHActivityConcept"/>
+        <activity android:name=".TWOHActivityConcept2"/>
     </application>
 
 </manifest>

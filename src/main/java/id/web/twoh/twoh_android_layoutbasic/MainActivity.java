@@ -1,5 +1,6 @@
 package id.web.twoh.twoh_android_layoutbasic;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -41,6 +42,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(TWOHLayoutToggle.newIntent(MainActivity.this));
+            }
+        });
+
+        Button btBasic = (Button) findViewById(R.id.bt_basic);
+        btBasic.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, TWOHActivityConcept.class));
             }
         });
     }
