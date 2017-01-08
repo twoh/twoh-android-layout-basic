@@ -22,6 +22,9 @@
         <activity android:name=".TWOHActivityConcept"/>
         <activity android:name=".TWOHActivityConcept2"/>
         <activity android:name=".TWOHAlertDialog"/>
+        <activity
+            android:theme="@style/AppThemeNoActionBar"
+            android:name=".TWOHRelativeLayout"/>
     </application>
 
 </manifest>
