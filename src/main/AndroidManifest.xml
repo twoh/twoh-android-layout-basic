@@ -21,6 +21,7 @@
         <activity android:name=".TWOHLayoutToggle"/>
         <activity android:name=".TWOHActivityConcept"/>
         <activity android:name=".TWOHActivityConcept2"/>
+        <activity android:name=".TWOHAlertDialog"/>
     </application>
 
 </manifest>

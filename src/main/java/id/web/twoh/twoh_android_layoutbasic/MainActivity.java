@@ -52,5 +52,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, TWOHActivityConcept.class));
             }
         });
+
+        Button btAlertDialog = (Button) findViewById(R.id.bt_alertdialog);
+        btAlertDialog.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, TWOHAlertDialog.class));
+            }
+        });
     }
 }
