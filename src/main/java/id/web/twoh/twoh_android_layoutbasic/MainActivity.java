@@ -68,5 +68,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, TWOHRelativeLayout.class));
             }
         });
+
+        Button btLinearLayout = (Button) findViewById(R.id.bt_linearlayout);
+        btLinearLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, TWOHLinearLayout.class));
+            }
+        });
     }
 }
