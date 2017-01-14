@@ -26,6 +26,7 @@
         <activity
             android:theme="@style/AppThemeNoActionBar"
             android:name=".TWOHRelativeLayout"/>
+        <activity android:name=".TWOHEditText"/>
     </application>
 
 </manifest>
