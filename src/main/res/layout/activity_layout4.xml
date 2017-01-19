@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ini halaman kedua Activity 2"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:layout_margin="15dp"
+        android:id="@+id/tv_data1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data 1"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:layout_margin="15dp"
+        android:id="@+id/tv_data2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data 2"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>
