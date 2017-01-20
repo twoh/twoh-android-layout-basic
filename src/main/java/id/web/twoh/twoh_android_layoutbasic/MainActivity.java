@@ -92,5 +92,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, TWOHActivityConcept3.class));
             }
         });
+
+        Button btCustomDialog = (Button) findViewById(R.id.bt_customdialog);
+        btCustomDialog.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, TWOHCustomAlertDialog.class));
+            }
+        });
     }
 }

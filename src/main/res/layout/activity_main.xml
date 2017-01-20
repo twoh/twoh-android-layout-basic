@@ -56,6 +56,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <Button
+        android:id="@+id/bt_customdialog"
+        android:text="Custom Dialog Sample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
         android:id="@+id/bt_relativelayout"
         android:text="Relative Layout Sample"
         android:layout_width="match_parent"
