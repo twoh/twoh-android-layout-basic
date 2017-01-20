@@ -27,6 +27,7 @@
             android:theme="@style/AppThemeNoActionBar"
             android:name=".TWOHRelativeLayout"/>
         <activity android:name=".TWOHEditText"/>
+        <activity android:name=".TWOHDatePicker"/>
     </application>
 
 </manifest>

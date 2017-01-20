@@ -64,5 +64,10 @@
         android:text="Edit Text Sample"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/bt_datepicker"
+        android:text="DatePicker Tutorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
