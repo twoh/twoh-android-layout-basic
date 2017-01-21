@@ -1,84 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingEnd="50dp"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingStart="50dp"
-    android:paddingEnd="50dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="id.web.twoh.twoh_android_layoutbasic.MainActivity">
 
-    <TextView
-        android:gravity="center"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TWOH's Layout Basic Tutorial Android" />
+        android:layout_height="wrap_content">
 
-    <Button
-        android:id="@+id/bt_basic"
-        android:text="Activity Basic"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
 
-    <Button
-        android:id="@+id/bt_intent"
-        android:text="Activity Intent Basic"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="TWOH's Layout Basic Tutorial Android" />
 
-    <Button
-        android:id="@+id/bt_spinner"
-        android:text="Spinner Tutorial"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <Button
-        android:id="@+id/bt_radiobutton"
-        android:text="Radio Button Tutorial"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <Button
-        android:id="@+id/bt_checkbox"
-        android:text="CheckBox Tutorial"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <Button
-        android:id="@+id/bt_toggle"
-        android:text="Toggle Tutorial"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <Button
-        android:id="@+id/bt_alertdialog"
-        android:text="Alert Dialog Sample"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <Button
-        android:id="@+id/bt_customdialog"
-        android:text="Custom Dialog Sample"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <Button
-        android:id="@+id/bt_relativelayout"
-        android:text="Relative Layout Sample"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <Button
-        android:id="@+id/bt_linearlayout"
-        android:text="Linear Layout Sample"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <Button
-        android:id="@+id/bt_edittext"
-        android:text="Edit Text Sample"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <Button
-        android:id="@+id/bt_datepicker"
-        android:text="DatePicker Tutorial"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/bt_basic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Activity Basic" />
 
+            <Button
+                android:id="@+id/bt_intent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Activity Intent Basic" />
+
+            <Button
+                android:id="@+id/bt_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Spinner Tutorial" />
+
+            <Button
+                android:id="@+id/bt_radiobutton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Radio Button Tutorial" />
+
+            <Button
+                android:id="@+id/bt_checkbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CheckBox Tutorial" />
+
+            <Button
+                android:id="@+id/bt_toggle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Toggle Tutorial" />
+
+            <Button
+                android:id="@+id/bt_alertdialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alert Dialog Sample" />
+
+            <Button
+                android:id="@+id/bt_customdialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Custom Dialog Sample" />
+
+            <Button
+                android:id="@+id/bt_relativelayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Relative Layout Sample" />
+
+            <Button
+                android:id="@+id/bt_linearlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Linear Layout Sample" />
+
+            <Button
+                android:id="@+id/bt_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Edit Text Sample" />
+
+            <Button
+                android:id="@+id/bt_datepicker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DatePicker Tutorial" />
+
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
