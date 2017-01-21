@@ -31,6 +31,7 @@
             android:name=".TWOHRelativeLayout"/>
         <activity android:name=".TWOHEditText"/>
         <activity android:name=".TWOHDatePicker"/>
+        <activity android:name=".TWOHTimePicker"/>
     </application>
 
 </manifest>
